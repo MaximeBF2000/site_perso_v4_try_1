@@ -1,0 +1,19 @@
+{
+  "layout": {
+    "navbar": {
+      "home": "Accueil",
+      "about": "A propos",
+      "articles": "Blog",
+      "projects": "Réalisations",
+      "contact": "Contact"
+    }
+  },
+  "home": {
+    "header": {
+      "uptitle": "Bonjour, je suis",
+      "title": "Maxime FERRET",
+      "subtitle": "Développeur Fullstack Javascript",
+      "cta": "Mon profil github"
+    }
+  }
+}

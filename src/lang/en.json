@@ -1,0 +1,19 @@
+{
+  "layout": {
+    "navbar": {
+      "home": "Home",
+      "about": "About",
+      "articles": "Articles",
+      "projects": "Projects",
+      "contact": "Contact"
+    }
+  },
+  "home": {
+    "header": {
+      "uptitle": "Hi, I'm",
+      "title": "Maxime FERRET",
+      "subtitle": "I'm a Fullstack Javascript Developer",
+      "cta": "Look up my github"
+    }
+  }
+}
