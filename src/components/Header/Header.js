@@ -13,7 +13,7 @@ import {
 	Profil,
 	CallToAction,
 } from './Header.styled'
-import profil from '../../.profil.json'
+import { profil } from 'superprofile'
 
 export const Header = () => {
 	const [t] = useTranslate()
@@ -28,7 +28,7 @@ export const Header = () => {
 				</Title>
 				<SubTitle size={28}>{t('home.header.subtitle')}</SubTitle>
 				<CallToAction
-          href={profil.socials.github}
+          href={profil('socials.github')}
 					color={fromTheme('colors.orange')}
 					size="l"
 					extraIcon={<AiOutlineArrowRight />}

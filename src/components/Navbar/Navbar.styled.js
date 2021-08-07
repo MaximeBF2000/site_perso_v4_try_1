@@ -25,7 +25,7 @@ export const NavItemWrapper = styled.li`
   &::after {
     content: '';
     position: absolute;
-    top: 100%;
+    top: calc(100% + 5px);
     left: 0;
     width: 100%;
     background: ${fromTheme('colors.orange')};
@@ -37,7 +37,7 @@ export const NavItemWrapper = styled.li`
 
   &:hover, &:focus {
     &::after {
-      ${mixins.scale(1)};
+      ${mixins.scale(.8)};
     }
   }
 `
