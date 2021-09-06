@@ -17,7 +17,6 @@ export const StyledButton = styled.button`
 	border-radius: 0.25rem;
 	gap: 0.5rem;
 	${propCondition('variant', variant => {
-		console.log({ variant })
 		switch (variant) {
 			case 'outlined':
 				return css`

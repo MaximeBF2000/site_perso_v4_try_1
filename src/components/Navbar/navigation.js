@@ -7,9 +7,9 @@ export const navigationMap = {
 }
 
 export const navigation = [
-  { to: 'home', label: 'layout.navbar.home' },
-  { to: 'about', label: 'layout.navbar.about' },
-  { to: 'articles', label: 'layout.navbar.articles' },
-  { to: 'projects', label: 'layout.navbar.projects' },
-  { to: 'contact', label: 'layout.navbar.contact' },
+	{ id: 'home', to: 'home', label: 'layout.navbar.home' },
+	{ id: 'about', to: 'about', label: 'layout.navbar.about' },
+	{ id: 'articles', to: 'articles', label: 'layout.navbar.articles' },
+	{ id: 'projects', to: 'projects', label: 'layout.navbar.projects' },
+	{ id: 'contact', to: 'contact', label: 'layout.navbar.contact' },
 ]

@@ -26,6 +26,7 @@
     "styled-components": "^5.3.0",
     "superassets": "file:src/modules/superassets",
     "superhead": "file:src/modules/superhead",
+    "superprofile": "file:src/modules/superprofile",
     "superstyle": "file:src/modules/superstyle"
   },
   "devDependencies": {

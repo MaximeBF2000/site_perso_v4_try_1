@@ -10,6 +10,7 @@ export const InjectGlobalStyle = createGlobalStyle`
   }
 
   body {
+    background-color: ${fromTheme('colors.white')};
     color: ${fromTheme('colors.black')};
   }
 
